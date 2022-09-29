@@ -32,8 +32,8 @@ const createInnerHTML = () => {
              <td>${employeePayrollData._salary}</td>
              <td>${stringifyDate(employeePayrollData._startDate)}</td>
              <td> 
-                 <img id="${employeePayrollData._id}" onclick ="remove(this)" alt="delete" src="../assets/icons/delete-black-18dp.svg">
-                 <img id="${employeePayrollData._id}" alt="Edit" onclick="update(this)" src="../assets/icons/create-black-18dp.svg">
+                 <img id="${employeePayrollData._id}" onclick ="remove(this)" alt="delete" src="E:\JavaScript\EmployeePayrollApp\page\create-black-18dp.svg">
+                 <img id="${employeePayrollData._id}" alt="Edit" onclick="update(this)" src="E:\JavaScript\EmployeePayrollApp\page\delete-black-18dp.svg">
              </td>
          </tr>
          `;

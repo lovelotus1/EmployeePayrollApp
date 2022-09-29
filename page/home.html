@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,600;1,500&display=swap"rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600&display=swap" rel="stylesheet">
     <title>Employee Payroll App</title>
-    <script defer src="../js/home.js"></script>
+    <script defer src="E:\JavaScript\EmployeePayrollApp\page\home.js"></script>
     <title>Document</title>
 </head>
 <body>
@@ -32,6 +32,39 @@
             </div>
             <a href="E:\JavaScript\EmployeePayrollApp\page\EmployeePayrollApp.html" class="add-button">
             <img src="E:\JavaScript\EmployeePayrollApp\page\add-24px.svg" alt="">Add User</a>
+        </div>
+        <!-- UC16 -->
+        <!-- Display Employee Details in Tabular Format -->
+        <div class="table-main">
+            <table id="display" class="table">
+                <tr>
+                    <th></th>
+                    <th>Name</th>
+                    <th>Gender</th>
+                    <th>Department</th>
+                    <th>Salary</th>
+                    <th>startDate</th>
+                    <th>Actions</th>
+                </tr>
+                <tr>
+                    <td>
+                        <img src="Ellipse -5.png" alt="" class="profile">
+                    </td>
+                    <td>Ashish Rathod</td>
+                    <td>Male</td>
+                    <td>
+                        <div class="dept-label">HR</div>
+                        <div class="dept-label">Finance</div>
+                    </td>
+                    <td>4000000</td>
+                    <td>5 Apr 2020</td>
+                    <td>
+                        <img id="1" onclick="remove(this)" src="attach_file-24px.svg" alt="delete">
+                        <img id="1" onclick="update(this)" src="create-black-18dp.svg" alt="edit">
+                    </td>
+                    </tr>
+                </tr>
+            </table>
         </div>
     </div>
 </body>
